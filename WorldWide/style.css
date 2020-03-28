@@ -1,0 +1,211 @@
+body
+{
+
+background-color: #fff4e6;
+margin: 0px;    
+}
+
+
+
+#logo
+{   position: relative;
+   background: rgb(255,213,131);
+background: linear-gradient(0deg, rgba(255,213,131,1) 0%, rgba(255,205,104,1) 19%, rgba(245,193,93,1) 58%, rgba(251,201,104,1) 90%, rgba(255,220,155,1) 100%);
+    font-family: Bembo;
+    text-align: left;
+    height: 65px;
+    font-size: 55px;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: snow;
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+      
+}
+
+#login
+{
+    float: right;
+    padding-right: 10px;
+    
+   
+    
+}
+
+input
+{
+  padding: 8px;
+  border: 1 px solid black;
+  border-radius: 2px;
+  opacity: 0.90;
+  font-size: 13px;
+
+  
+}
+
+input[type=submit] {
+  background-color: #3761C8;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1743B0;
+}
+
+
+
+#leftbar
+{
+    float: left;
+    width: 500px;
+    min-height: 620px;
+    padding-top: 85px;
+    padding-left: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Tahoma;
+    
+}
+
+#rightbar
+{
+    float: right;
+    width: 500px;
+    min-height: 620px;
+    padding: 70px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Tahoma;
+    
+    
+    
+}
+
+
+
+
+
+input.rej
+{
+    width: 95%;
+     padding: 10px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: ridge;
+}
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 95%;
+  opacity: 0.9;
+    font-size: 20px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+#info
+{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#left1
+{
+    width: 45%;
+    background-color: #ffdca8;
+    display: inline;
+    text-align: center;
+    float: left;
+    opacity: 0.8;
+    
+}
+
+#right1
+{
+    display: inline;
+    float: right;
+    width: 45%;
+    background-color: #ffdca8;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+
+#logout
+{
+    background-color: #4CAF50;
+  color: white;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+    font-size: 20px;
+    
+}
+
+.error
+{
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#tab
+{
+     border-width:2px;
+  border-style:ridge;
+    background-color: white;
+}
+
+#tab th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: rgb(255,213,131);
+  color: black;
+}
+    #tab td {
+        height: 20px;
+  
+}
+
+#edit
+{
+      margin: auto;
+  width: 50%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+input.zmiana
+{
+    width: 100%;
+     padding: 10px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: ridge;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    
+    
+}
+
